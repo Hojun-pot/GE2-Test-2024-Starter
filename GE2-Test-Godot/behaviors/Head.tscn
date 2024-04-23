@@ -1,6 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dee74jsxp4jd1"]
+[gd_scene load_steps=5 format=3 uid="uid://dee74jsxp4jd1"]
 
 [ext_resource type="Script" path="res://behaviors/Head.gd" id="1_ck0qb"]
+[ext_resource type="Script" path="res://behaviors/Harmonic.gd" id="2_akugy"]
+[ext_resource type="Script" path="res://behaviors/NoiseWander.gd" id="3_ff3h1"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_4ese4"]
 
@@ -9,3 +11,9 @@ script = ExtResource("1_ck0qb")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_4ese4")
+
+[node name="Harmonic" type="Node" parent="."]
+script = ExtResource("2_akugy")
+
+[node name="NoiseWander" type="Node" parent="."]
+script = ExtResource("3_ff3h1")

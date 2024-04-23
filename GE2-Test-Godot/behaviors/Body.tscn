@@ -1,11 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqgwinbxaem8e"]
-
-[ext_resource type="Script" path="res://behaviors/Body.gd" id="1_pg4us"]
+[gd_scene load_steps=2 format=3 uid="uid://bqgwinbxaem8e"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_jks4y"]
 
 [node name="Body" type="Node3D"]
-script = ExtResource("1_pg4us")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_jks4y")
