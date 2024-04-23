@@ -15,6 +15,11 @@ script = ExtResource("1_prfgg")
 
 [node name="creature_generator" type="Node3D" parent="."]
 script = ExtResource("2_k2tpo")
+Length = 4.0
+StartAngle = 4.0
+Frequency = 4.0
+BaseSize = 4.0
+Mult = 4.0
 HeadScene = ExtResource("3_6wvqm")
 BodyScene = ExtResource("4_tdbie")
 
